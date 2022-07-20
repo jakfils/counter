@@ -1,5 +1,5 @@
 # Document
 
-HTML, CSS and Vanilla JavaScript 
+HTML, CSS and Vanilla JavaScript Increase and Decrease counter
 
 ![Getting Started](./img/maquette.JPG)
