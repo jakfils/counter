@@ -1,4 +1,4 @@
-# Document
+# Counter
 
 HTML, CSS and Vanilla JavaScript Increase and Decrease counter
 
