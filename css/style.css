@@ -1,0 +1,56 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#container {
+  background-color: aqua;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 3em;
+}
+
+button {
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.buttons button:first-child {
+  margin-right: 10px;
+}
+
+.buttons button:last-child {
+  margin-left: 10px;
+}
+
+.active {
+  border: 2px green solid;
+}
+
+.counter {
+  font-size: 4em;
+}
+
+.counterPositif {
+  color: green;
+}
+
+.counterNegatif {
+  color: red;
+}
+
+@media screen and (max-width: 700px) {
+  #container {
+    width: 100%;
+  }
+}
